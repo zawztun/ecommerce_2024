@@ -56,10 +56,10 @@ export const Header = (props: Props) => {
               <EnvelopeOpenIcon className="h-6 w-6 text-gray-400" />
               <span>Message</span>
             </button>
-            <div className="flex flex-col gap-2 items-center">
+            <button className="flex flex-col gap-2 items-center">
               <HeartIcon className="h-6 w-6 text-gray-400" />
               <span>Order</span>
-            </div>
+            </button>
             <button className="flex flex-col gap-2 items-center">
               <ShoppingCartIcon className="h-6 w-6 text-gray-400" />
               <span>My Cart</span>
