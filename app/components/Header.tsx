@@ -31,7 +31,7 @@ export const Header = (props: Props) => {
             />
 
             <div className="hidden md:flex px-2 ">
-              <select className="px-2 text-sm border-l border-blue-300 rounded-sm outline-none">
+              <select className="px-2 text-sm border-l border-blue-300 rounded-sm outline-none bg-white">
                 <option value="electronic">Electronic</option>
                 <option value="books">Books</option>
                 <option value="phones">Phones</option>
@@ -47,23 +47,23 @@ export const Header = (props: Props) => {
             <Bars3BottomLeftIcon className="h-12 w-12 text-blue-900" />
           </div>
           <div className="w-[40%] hidden md:flex md:justify-end list-none gap-4 text-xs items-center">
-            <div className="flex flex-col gap-2 justify-center items-center">
+            <button className="flex flex-col gap-2 justify-center items-center">
               <UserCircleIcon className="h-6 w-6 text-gray-400 " />
 
-              <li>Profile</li>
-            </div>
-            <div className="flex flex-col gap-2 items-center">
+              <span>Profile</span>
+            </button>
+            <button className="flex flex-col gap-2 items-center">
               <EnvelopeOpenIcon className="h-6 w-6 text-gray-400" />
-              <li>Message</li>
-            </div>
+              <span>Message</span>
+            </button>
             <div className="flex flex-col gap-2 items-center">
               <HeartIcon className="h-6 w-6 text-gray-400" />
-              <li>Order</li>
+              <span>Order</span>
             </div>
-            <div className="flex flex-col gap-2 items-center">
+            <button className="flex flex-col gap-2 items-center">
               <ShoppingCartIcon className="h-6 w-6 text-gray-400" />
-              <li>My Cart</li>
-            </div>
+              <span>My Cart</span>
+            </button>
           </div>
         </div>
       </div>
